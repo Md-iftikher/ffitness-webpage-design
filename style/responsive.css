@@ -102,4 +102,27 @@
     .team-card img {
         height: auto;
     }
+
+
+    /* footer style  */
+    .footer-container {
+        flex-direction: column;
+        padding: 5px;
+    }
+    .footer-title{
+        margin-bottom: 20px;
+    }
+    .footer-left {
+      text-align: center;
+      width: auto;
+    }
+    .footer-right{
+        width: auto;
+        margin-top: 20px;
+       flex-direction: column;
+        
+    }
+    .get-started{
+        margin-bottom: 30px;
+    }
 }

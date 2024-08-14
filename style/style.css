@@ -301,10 +301,11 @@ main {
     padding: 40px;
 
 }
-.meet-team-content{
+
+.meet-team-content {
     display: flex;
     flex-direction: column;
-    gap:20px;
+    gap: 20px;
     justify-content: center;
     align-items: center;
 }
@@ -329,26 +330,30 @@ main {
     grid-template-columns: repeat(3, 1fr);
     padding: 20px;
     gap: 20px;
-    
+
 }
-.team-card{
+
+.team-card {
     position: relative;
 
-   
+
 }
-.team-card img{
+
+.team-card img {
     width: 100%;
     border-radius: 18px;
     height: 270px;
 }
-.team-card-heading{
+
+.team-card-heading {
     position: absolute;
     bottom: 40px;
     left: 10px;
     color: white;
     font-size: 30px;
 }
-.team-card-description{
+
+.team-card-description {
     color: rgba(255, 255, 255, 0.7);
     font-size: 15px;
     font-weight: 400;
@@ -359,26 +364,59 @@ main {
 
 
 /* footer section style  */
-footer{
-    background: rgb(0 0 0 / 75%);
+footer {
+    background: rgba(0, 0, 0, 90%);
 }
-.footer-container{
+
+.footer-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    padding: 50px;
 }
-.footer-left{
 
+.footer-left {
+   width: 50%;
 }
-.footer-title{
-
+.footer-right{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
 }
-.footer-description{
 
+.footer-title {
+    color: red;
+    font-size: 70px;
+    font-weight: 800;
+    margin-bottom: 40px;
 }
-.get-started{
 
+.footer-description {
+    color: rgba(137, 137, 137, 0.818);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
 }
-.footer-description-2{
 
+.get-started {
+    color: white;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.footer-description-2 {
+    color: rgba(137, 137, 137, 0.818);
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.doted{
+    border: 2px solid rgba(255, 255, 255, 0.396);
+}
+.copyright{
+    text-align: center;
+    color: rgba(137, 137, 137, 0.818);
 }
