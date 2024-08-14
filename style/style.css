@@ -17,7 +17,6 @@ body {
 * {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
 }
 
 header {
@@ -290,8 +289,86 @@ main {
     border: none;
 }
 
+/* bmi claculator style  */
+.bmi {
+    text-align: center;
+    margin: 30px;
+}
 
+.bmi-tilte {
+    color: white;
+    font-size: 45px;
+    font-weight: 800;
+}
 
+.bmi-des {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.Bmi-section {
+    background: rgb(34, 34, 34);
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+.bmi-chart-title {
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.bmi-heading {
+    color: white;
+    font-size: 16px;
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+    /* padding: 5px; */
+}
+
+td,
+th {
+    padding: 5px 10px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.calculator-des {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+input,
+select {
+    height: 48px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    padding: 5px;
+    color: rgb(255 255 255 / 34%);
+}
+.calculator-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 20px;
+    margin-bottom: 10px;
+    gap: 10px;
+}
+.cal-btn{
+    color: white;
+    background: red;
+    border-radius: 42px;
+    padding: 14px 75px;
+    border: none;
+}
+  
 
 /* meet team section style  */
 .meet-team-secton {
@@ -376,14 +453,15 @@ footer {
 }
 
 .footer-left {
-   width: 50%;
+    width: 50%;
 }
-.footer-right{
+
+.footer-right {
     width: 50%;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    
+
 }
 
 .footer-title {
@@ -391,6 +469,7 @@ footer {
     font-size: 70px;
     font-weight: 800;
     margin-bottom: 40px;
+    font-style: italic;
 }
 
 .footer-description {
@@ -413,10 +492,16 @@ footer {
     font-weight: 400;
     margin-bottom: 10px;
 }
-.doted{
+
+.doted {
     border: 2px solid rgba(255, 255, 255, 0.396);
+    margin: 0 auto;
+    max-width: 1025px;
+    border-radius: 16px;
 }
-.copyright{
+
+.copyright {
     text-align: center;
     color: rgba(137, 137, 137, 0.818);
+    padding: 5px;
 }

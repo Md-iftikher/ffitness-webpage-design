@@ -81,7 +81,7 @@
     }
     .run-button {
         font-size: 20px;
-        padding: 23px 192px;
+        padding: 32px 183px;
         border-radius: 40px;
         
     }
@@ -94,6 +94,7 @@
 
     /* meet the team design */
     .team-card-container {
+        margin: 0 auto;
         grid-template-columns: repeat(1, 1fr);
         padding: 20px;
         gap: 20px;
@@ -124,5 +125,14 @@
     }
     .get-started{
         margin-bottom: 30px;
+    }
+
+    /* bmi section style  */
+    .Bmi-section {
+       flex-direction: column;
+       padding: 55px;
+    }
+    .bmi-left-chart{
+        margin-bottom: 20px;
     }
 }
