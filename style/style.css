@@ -441,11 +441,8 @@ select {
 
 /* discout-section */
 .discount-section{
-    max-width: 1050px;
-    margin: 0 auto;
-    background-color: rgb(48 48 48 / 45%);
+    background: rgb(114 114 114 / 80%);
     padding: 40px;
-    border-radius: 20px;
 }
 .dicount-card-container{
     display: flex;
