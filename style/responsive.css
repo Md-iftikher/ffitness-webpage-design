@@ -50,9 +50,56 @@
     .header-card-1 {  
         height: 90px;  
     }
+
+
+    /* habit respinsive */
     .habit-card-container {
         
         grid-template-columns: repeat(1, 1fr);
        
+    }
+
+    /* run repinsive */
+
+    .run-section {
+        flex-direction: column;
+        border-radius: 18px;
+        background: rgb(34, 34, 34);
+        margin:60px 15px;
+        gap: 30px;
+    }
+    .run-title {
+        font-size: 39px;
+    }
+    .run-section-content{
+        width: auto;
+        text-align: center;
+    }
+
+    .run-img-contianer {
+        width: auto
+    }
+    .run-button {
+        font-size: 20px;
+        padding: 23px 192px;
+        border-radius: 40px;
+        
+    }
+    .run-description {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+
+
+    /* meet the team design */
+    .team-card-container {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 20px;
+        gap: 20px;
+        
+    }
+    .team-card img {
+        height: auto;
     }
 }
