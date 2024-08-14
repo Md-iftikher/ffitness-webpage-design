@@ -81,7 +81,7 @@
     }
     .run-button {
         font-size: 20px;
-        padding: 32px 183px;
+        padding: 32px 155px;
         border-radius: 40px;
         
     }
@@ -90,7 +90,15 @@
         margin-bottom: 20px;
     }
 
+    /* discount-card  */
 
+    .dicount-card-container{
+        flex-direction: column;
+    }
+    .discout-btn{
+        border-radius: 15px;
+        padding: 18px 63px;
+    }
 
     /* meet the team design */
     .team-card-container {
