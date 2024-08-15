@@ -1,6 +1,6 @@
 @media screen and (max-width: 576px) {
     .nav-main {
-        margin: 10px 20px;
+        margin: 0px 20px 10px 20px;
     }
 
     .nav-left {
@@ -17,7 +17,11 @@
         /* align-items: flex-start; */
     }
 
-    .header-tile,
+    .header-tile {
+        font-size: 60px;
+        margin-bottom: 25px;
+    }
+
     .header-description {
         margin-bottom: 25px;
     }
@@ -34,29 +38,50 @@
         margin-bottom: 40px;
     }
 
+    .header-button-container {
+        display: flex;
+        justify-content: space-around;
+    }
+
     .header-button {
-        padding: 25px 40px;
-        margin-right: 35px;
+        padding: 16px 32px;
+        margin-right: 4px;
 
     }
-    .youtube-icon{
+
+    .youtube-icon {
         display: inline;
     }
-    .circle{
+
+    .youtube-icon img {
+        width: 100%;
+    }
+
+    .circle {
         display: none;
         /* height: 0px;
         width: 0px; */
     }
-    .header-card-1 {  
-        height: 90px;  
+
+    .header-card-1 {
+        padding: 13px;
+        height: 60px;
+        top: 75%;
+        right: 52%;
     }
 
+    .header-card-2 {
+        padding: 12px 11px;
+        top: 10%;
+        right: -2%;
+        height: 65px;
+    }
 
     /* habit respinsive */
     .habit-card-container {
-        
+
         grid-template-columns: repeat(1, 1fr);
-       
+
     }
 
     /* run repinsive */
@@ -65,13 +90,15 @@
         flex-direction: column;
         border-radius: 18px;
         background: rgb(34, 34, 34);
-        margin:60px 15px;
+        margin: 60px 15px;
         gap: 30px;
     }
+
     .run-title {
         font-size: 39px;
     }
-    .run-section-content{
+
+    .run-section-content {
         width: auto;
         text-align: center;
     }
@@ -79,12 +106,14 @@
     .run-img-contianer {
         width: auto
     }
+
     .run-button {
-        font-size: 20px;
-        padding: 32px 155px;
-        border-radius: 40px;
-        
+        font-size: 15px;
+        padding: 15px 104px;
+        border-radius: 30px;
+
     }
+
     .run-description {
         margin-top: 20px;
         margin-bottom: 20px;
@@ -92,12 +121,17 @@
 
     /* discount-card  */
 
-    .dicount-card-container{
+    .dicount-card-container {
         flex-direction: column;
     }
-    .discout-btn{
+
+    .discout-btn {
         border-radius: 15px;
         padding: 18px 63px;
+    }
+    .discout-text {
+        padding: 30px;
+        font-size: 35px;
     }
 
     /* meet the team design */
@@ -106,8 +140,9 @@
         grid-template-columns: repeat(1, 1fr);
         padding: 20px;
         gap: 20px;
-        
+
     }
+
     .team-card img {
         height: auto;
     }
@@ -118,29 +153,43 @@
         flex-direction: column;
         padding: 5px;
     }
-    .footer-title{
+
+    .footer-title {
         margin-bottom: 20px;
     }
+
     .footer-left {
-      text-align: center;
-      width: auto;
+        text-align: center;
+        width: auto;
     }
-    .footer-right{
+
+    .footer-right {
         width: auto;
         margin-top: 20px;
-       flex-direction: column;
-        
+        flex-direction: column;
+
     }
-    .get-started{
+
+    .get-started {
         margin-bottom: 30px;
     }
 
     /* bmi section style  */
     .Bmi-section {
-       flex-direction: column;
-       padding: 55px;
+        flex-direction: column;
+        padding: 55px;
+        justify-content: center;
+        align-items: center;
     }
-    .bmi-left-chart{
+
+    .bmi-left-chart {
         margin-bottom: 20px;
+    }
+
+    input,
+    select {
+
+        box-sizing: border-box;
+        font-size: 13px;
     }
 }

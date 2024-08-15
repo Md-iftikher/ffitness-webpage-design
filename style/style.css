@@ -129,22 +129,22 @@ header {
 .header-card-1 {
     position: absolute;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;
     backdrop-filter: blur(20px);
-    padding: 23px;
+    padding: 15px;
     gap: 20px;
     top: 385px;
     right: 220px;
-    height: 70px;
+    height: 50px;
 
 }
 
 .circle {
-    height: 30px;
-    width: 36px;
+    height: 39px;
+    width: 39px;
     background-color: red;
     border-radius: 50%;
 
@@ -158,7 +158,7 @@ header {
 
 .header-card-description {
     color: rgba(239, 237, 232, 0.65);
-    font-size: 12px;
+    font-size: 9px;
     font-weight: 400;
 }
 
@@ -338,6 +338,9 @@ th {
     border: 1px solid rgba(255, 255, 255, 0.1);
     color: rgba(255, 255, 255, 0.5);
 }
+.text-align-centre{
+    text-align: center;
+}
 
 .calculator-des {
     color: rgba(255, 255, 255, 0.5);
@@ -353,6 +356,8 @@ select {
     border: none;
     padding: 5px;
     color: rgb(255 255 255 / 34%);
+    box-sizing: border-box;
+    font-size: 16px;
 }
 .calculator-grid{
     display: grid;
